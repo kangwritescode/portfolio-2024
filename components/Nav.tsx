@@ -43,14 +43,14 @@ export default function Nav() {
 
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 flex flex-col lg:gap-4">
-      <div className="flex flex-col gap-4 lg:pr-24 mt-6 lg:mt-0">
-        <h1 className="text-[42px] font-bold lg:text-start">
-          Hi, I&#39;m David 👋
+      <div className="flex flex-col lg:pr-24 mt-6 lg:mt-0">
+        <h1 className="text-[48px] font-bold lg:text-start">
+          David Kang
         </h1>
-        <h2 className="text-xl lg:text-start">
+        <h2 className="text-xl lg:text-start mb-4">
           Software Engineer @ Aetna Health
         </h2>
-        <p className="text-lg lg:text-start text-muted-foreground">
+        <p className="lg:text-start text-muted-foreground">
         I build polished, performant, and accessible web experiences.
         </p>
       </div>

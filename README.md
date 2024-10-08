@@ -24,7 +24,7 @@ This site is not intended as a direct clone of Brittany Chiang's website but rat
 
 ### Acknowledgement 👏
 
-> Based on Brittany Chiang's website (they're awesome). Coded in Visual Studio Code. Built with Next.js, Tailwind CSS, and Shadcn/ui, deployed with Vercel.
+> Based on Brittany Chiang's website. Forked off Alexandros M.'s portfolio. Coded in Visual Studio Code. Built with Next.js, Tailwind CSS, and Shadcn/ui, deployed with Vercel.
 
 ## 🚨 Forking this repo (please read, it's important!) 🚨
 

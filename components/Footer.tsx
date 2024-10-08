@@ -8,8 +8,12 @@ export default function Footer() {
           Based on{" "}
           <a className="text-foreground" href="https://brittanychiang.com">
             Brittany Chiang&#39;s website
-          </a>{" "}
-          (they awesome). Coded in{" "}
+          </a>
+          . Forked off{" "}
+          <a className="text-foreground" href="https://github.com/0xAlexander/my-website">
+            Alexander M&#39;s
+          </a>
+          . Coded in{" "}
           <a className="text-foreground" href="https://code.visualstudio.com/">
             Visual Studio Code.
           </a>{" "}

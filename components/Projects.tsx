@@ -12,75 +12,24 @@ import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
   {
-    imagePath: "/vela.avif",
-    title: "Vela Exchange - Product Design",
+    imagePath: "/rapking.jpg",  
+    title: "RapKing - Social Network for Rap Enthusiasts",
     description:
-      "Led a team of 4 designers, implementing design systems and processes to launch flagship features like Duels, Accounts, Loyalty Tiers, and Notification Tray and System.",
+      "Developing a gamified social network Next.js mobile-first web application, enabling users to write, share, rate, and comment on rap lyrics. Engineered the application using Typescript, incorporating TRPC for efficient API communication, Prisma for streamlined database management with a PostgreSQL database hosted on DigitalOcean. Implemented robust user authorization and authentication mechanism using Nextauth, managed data handling techniques through React Query, and integrated zod for schema validation, enhancing the reliability and security of the application, which is hosted on Vercel for high availability and performance.",
     skills: [
-      "Product Design",
-      "UI/UX Design",
-      "Design System",
-      "Design Strategy",
-      "Vercel",
-      "Figma",
-    ],
-    link: "https://vela.exchange",
-  },
-  {
-    imagePath: "/l3x.avif",
-    title: "L3X Network - Founding Product Design",
-    description:
-      "L3X Network is a Layer 3 interoperability blockchain designed to provide institutions, developers, and users with secure, compliant, and efficient access to decentralized finance (DeFi) markets. My role involved founding and leading the design team, mapping UX, and designing the protocol's Landing Page and Interfaces for the Bridge, Trading, Swap, and Staking platforms.",
-    skills: [
-      "Product Design",
-      "UI/UX Design",
-      "Design System",
-      "Design Strategy",
-      "Vercel",
-      "Figma",
-    ],
-    link: "https://l3x.com",
-  },
-  {
-    imagePath: "/swoop-og-banner.webp",
-    title: "Swoop Exchange - Landing Page",
-    description:
-      "Swoop's landing page highlights the platform's use cases and solutions. Swoop Exchange is a Meta-DEX Aggregator that automatically sources, ranks and routes quotes from the best DEX Aggregators and Bridges, ensuring the best prices for on-chain and cross-chain swaps. Swoop Exchange has achieved millions in USD volume and currently has around 4000 monthly users with 0 paid marketing.",
-    skills: [
-      "Next.js",
-      "Framer",
-      "Shadcn/ui",
       "Typescript",
-      "JavaScript",
-      "Vercel",
-      "Figma",
-    ],
-    link: "https://swoop.exchange",
-  },
-  {
-    imagePath: "/app-front-1.png",
-    title: "Swoop Exchange - Application Design",
-    description:
-      "Swoop Exchange is a next generation Meta Decentralized Exchange and Bridge Aggregator. By Aggregating the Aggregators, Bridges, and Liquidity across chains, and off-chain it solves protocol and liquidity fragmentation, significantly improving UX. Provides access to: 450,000+ Tokens, 7+ Aggregators, 13+ Bridges, 50+ DEXs, 280+ Liquidity Sources and 16+ Blockchains.",
-    skills: [
       "Next.js",
-      "Typescript",
-      "JavaScript",
-      "MUI",
-      "Tailwind CSS",
+      "TRPC",
+      "Prisma",
+      "PostgreSQL",
+      "NextAuth.js",
+      "React Query",
+      "Zod",
       "Vercel",
-      "Figma",
+      "Figma"
     ],
-    link: "https://app.mtopswap.com",
-  },
-  {
-    imagePath: "/meikopoulos.com_PC.png",
-    title: "meikopoulos.com",
-    description:
-      "The portfolio webpage you are looking at right now. Based on Brittany Chiang's website (they awesome). Coded in Visual Studio Code.",
-    skills: ["Typescript", "JavaScript", "Tailwind CSS", "Vercel"],
-    link: "https://github.com/0xAlexander/my-website",
-  },
+    link: "https://rapking.io",  
+  }
 ];
 
 export default function Projects() {
