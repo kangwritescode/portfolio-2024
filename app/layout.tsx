@@ -24,15 +24,6 @@ export const metadata: Metadata = {
     description:
       "David Kang is a software engineer.",
     url: "https://imdavidkang.com",
-    images: [
-      {
-        url: "./og-large-meik-2.jpg",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "David Kang",
   },
 };
 
