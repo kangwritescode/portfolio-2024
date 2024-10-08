@@ -12,100 +12,53 @@ import { MoveRight } from "lucide-react";
 
 const jobPositions = [
   {
-    timeline: "Aug 2024 — Present",
-    currentPosition: "Founding Designer & Head of Product Design",
-    place: "Stealth AI Startup",
-    previousPositions: [""],
+    timeline: "Jan 2024 — Present",
+    currentPosition: "Software Engineer",
+    place: "Aetna",
     description:
-      "Establishing and leading the design team for a Stealth AI Startup set to bring the New Era of Money. My role involves founding and leading the design team, setting the vision and standards for design excellence, direct branding and actively contributing to hands-on product design for going to market.",
-    skills: [
-      "Brand Identity",
-      "Product Design",
-      "UI/UX Design",
-      "Design Systems",
-      "Design Strategy",
-      "Team Leadership",
-    ],
-  },
-  {
-    timeline: "Mar 2024 — Present",
-    currentPosition: "Head of Product Design",
-    place: "Vela Exchange",
-    previousPositions: ["Designer and Front-end Developer"],
-    description:
-      "Leading the design team for Vela Exchange, a community-first, decentralized perpetuals trading platform. My role involves setting the vision and standards for design excellence, and actively contributing to hands-on product design.",
-    skills: [
-      "Product Design",
-      "UI/UX Design",
-      "Design Systems",
-      "Design Strategy",
-      "Team Leadership",
-    ],
-  },
-  {
-    timeline: "Feb 2022 — Presents",
-    currentPosition: "Co-founder, Designer & Developer",
-    place: "Swoop Exchange",
-    previousPositions: [""],
-    description:
-      "Co-founded, designed, and developed a Next-Gen Decentralized Exchange from MVP to launch, scaling from zero to over $10M in trading volume. Swoop Exchange is powered by a novel Meta-Aggregation Engine that leverages sophisticated routing algorithms and APIs to automatically route trades from the most profitable liquidity sources, vastly improving swap efficiency and user experience.",
+      "Identifying and rectifying accessibility defects reported by customers, ensuring compliance with WCAG Level AA standards and the latest web accessibility guidelines. Contributing to the development of new components and features in Typescript and React.js, meticulously crafted to adhere to accessibility standards. Developed enhancements for Aetna’s member portal search, including provider recommendations and search filter options; ensured robust API integration and performance.",
     skills: [
       "Typescript",
-      "JavaScript",
-      "CSS",
-      "Tailwind CSS",
-      "MUI",
-      "HTML",
-      "Figma",
-      "UI/UX Design",
-      "Blockchain tech",
-      "Project Management",
-      "Planning",
-      "Leadership",
-      "Testing & QA",
+      "ReactJS",
+      "Playwright",
+      "React Testing Library",
+      "Accessibility",
+      "CSS"
     ],
   },
   {
-    timeline: "Aug 2016 — Mar 2024",
-    currentPosition: "Head of QA",
-    place: "Lykomitros Steel",
-    previousPositions: [
-      "Quality Assurance Engineer",
-      "QA/QC Administrative Support",
-    ],
+    timeline: "Sep 2023 — Jan 2024",
+    currentPosition: "Software Engineer (Contract)",
+    place: "Moonhub",
     description:
-      "Lead the QA department, focusing on renewable energy components in steel manufacturing. Maintained industry and client standards, ensuring product integrity for renewable energy.",
+      "Contributed several UI and architectural improvements for Moonhub’s Chatbot and email sequence scheduling front-end application, leveraging React, Redux, and Typescript for robust development. Utilized Material UI and testing frameworks like React Testing Library and Jest to ensure high-quality, maintainable code. Conducted thorough code reviews, offering constructive feedback and mentorship to contractors, fostering a collaborative and efficient work environment.",
     skills: [
-      "ISO Compliance",
-      "Quality Assurance",
-      "Engineering Management",
-      "ISO 9001",
-      "ISO 45001",
-      "ISO 14001",
-      "Requirement Assessment",
-      "Auditing",
+      "React",
+      "Redux",
+      "Typescript",
+      "Material UI",
+      "React Testing Library",
+      "Jest"
     ],
   },
   {
-    timeline: "Nov 2013 - May 2014",
-    currentPosition: "Digital Systems Admin - Internship",
-    place: "OTE Group (HTO)",
-    previousPositions: [""],
+    timeline: "Feb 2020 — Jan 2023",
+    currentPosition: "Software Engineer",
+    place: "GoFundMe",
     description:
-      "Gained valuable experience in digital systems administration, focusing on the management of contractors and capital.",
+      "Maintained and developed multiple iterations of GoFundMe’s campaign create flow; Implemented with React.js, Typescript, and Next.js, front-end using functional components, SASS CSS preprocessor, and Redux.js for managing persistent centralized state. When needed, made backend contributions to the legacy codebase written in PHP within the Laravel framework. Regularly worked and communicated with the Product and Design team to ensure quality and accessibility.",
     skills: [
-      "SQL",
-      "Administration",
-      "Problem-Solving",
-      "Computer Systems",
-      "System documentation",
-      "Networking",
-      "Cloud Computing",
-      "Automation",
-      "Scripting",
+      "React.js",
+      "Typescript",
+      "Next.js",
+      "SASS",
+      "Redux.js",
+      "PHP",
+      "Laravel"
     ],
-  },
+  }
 ];
+
 
 export default function ExpCard() {
   return (
@@ -130,11 +83,6 @@ export default function ExpCard() {
               <p className="text-foreground font-bold">
                 {job.currentPosition} • {job.place}
               </p>
-              {job.previousPositions.map((position, index) => (
-                <p key={index} className="text-slate-400 text-sm font-bold">
-                  {position}
-                </p>
-              ))}
               <CardDescription className="py-3 text-muted-foreground">
                 {job.description}
               </CardDescription>
@@ -149,7 +97,7 @@ export default function ExpCard() {
       </>
       <div className="lg:px-12 mt-12">
         <a
-          href="mailto:alexander@meikopoulos.com"
+          href="mailto:davidhjkang@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center font-medium leading-tight text-foreground group"

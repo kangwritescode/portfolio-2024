@@ -7,23 +7,23 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://meikopoulos.com"),
+  metadataBase: new URL("https://imdavidkang.com"),
   alternates: {
-    canonical: "https://meikopoulos.com",
+    canonical: "https://imdavidkang.com",
   },
-  title: "Alexander Meikopoulos - Product Designer in AI, Web3, and Finance",
+  title: "David Kang - Software Engineer @ Aetna",
   description:
-    "Alexander Meikopoulos is a Product designer, developer & founder.",
+    "David Kang is a software engineer.",
   keywords:
-    "Alexander Meikopoulos, Product Designer, AI, Web3, Finance, User Experience, UI/UX Design, Design Systems, Front-end Development, Decentralized Finance, DeFi, Swoop Exchange, Vela Exchange, Stealth AI Startup, Technology, Innovation, Human-Centered Design",
+    "David Kang, Software Engineer, Web Developer, Web Engineer, React Developer, Javascript Developer",
   openGraph: {
     locale: "en_US",
-    siteName: "Alexander Meikopoulos",
+    siteName: "David Kang",
     type: "website",
-    title: "Alexander Meikopoulos",
+    title: "David Kang",
     description:
-      "Alexander Meikopoulos is a Product designer, developer & founder.",
-    url: "https://meikopoulos.com",
+      "David Kang is a software engineer.",
+    url: "https://imdavidkang.com",
     images: [
       {
         url: "./og-large-meik-2.jpg",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alexander Meikopoulos",
+    title: "David Kang",
   },
 };
 
