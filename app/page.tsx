@@ -38,7 +38,7 @@ export default function Home() {
         `}</style>
       </Head>
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
-        <div ref={auraRef} className="mouse-aura" />
+        <div ref={auraRef} className="mouse-aura hidden dark:block" />
         <div className="lg:flex lg:justify-between lg:gap-4">
           <Nav />
           <main className="flex flex-col pt-6 lg:pt-24 lg:w-1/2 lg:py-24 gap-8">
